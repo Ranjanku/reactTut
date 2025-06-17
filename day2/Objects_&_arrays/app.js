@@ -47,7 +47,7 @@ const person = {
     weight : 78,
     college : "LPU",
     getBMI : () => {
-        console.log("BMI : ", (person.weight / (person.height * person.height)).toFixed(2));
+        console.log(`BMI :  ${(person.weight / (person.height * person.height)).toFixed(2)}`);
     }
 
 };
